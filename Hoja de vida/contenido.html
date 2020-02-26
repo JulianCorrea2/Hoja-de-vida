@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hoja de vida</title>
+	<link rel="stylesheet" type="text/css" href="css/style-contenido.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body >
+	<div class="container">
+		<div class="jumbotron jumbotron-fluid">
+  			<div class="container">
+    			<h1 class="display-3">Julian Simbaqueba</h1>
+    			<p class="lead">Estudiante Ingenieria de Sistemas</p>
+  			</div>
+		</div>
+		<div class="card">
+  			<div class="card-header" id="header-card">
+    			Datos Personales
+  			</div>
+  			<div class="media" id="media">
+    			<center><img src="img/foto.jpg" class="img-fluid" alt="Responsive image"></center>
+  				<div class="media-body">
+    				<p>Identificacion: 1.013.681.697</p>
+					<p>Direccion: Cra 24 H # 24 - 25 sur</p>
+					<p>Telefono: 3195218934</p>
+					<p>Estado Civil: Soltero</p>
+					<p>Correo: juliancorrea879@gmail.com</p>
+  				</div>
+  			</div>
+		</div>
+		<div id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="card">
+				<div class="card-header" role="tab" id="headingOne">
+	  				<h5 class="mb-0">
+	    			<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="">
+	     		 	Perfil Profesional
+	    			</a> 
+	  				</h5>
+				</div>
+			<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="">
+	  			<div class="card-block">
+	   				<p class="card-text">Actualmente estudio todos los días en la Corporación Universitaria Minuto de Dios, cursando 7.º
+					semestre de la carrera de Ingeniería de Sistemas.
+					Me considero una persona responsable, creativa en mis actividades a desempeñar, poseo alta
+					fluidez verbal, compromiso en mis labores a realizar, puntual buen sentido de pertenencia y gran
+					compañerismo.</p>
+	  			</div>
+			</div>
+			</div>
+		<div class="card">
+			<div class="card-header" role="tab" id="headingTwo">
+	  			<h5 class="mb-0">
+	    		<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	      		Experiencia Laboral
+	    		</a>
+	  			</h5>
+			</div>
+		<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="true" style="">
+	  		<div class="card-block">
+	  			<h5>Cajero</h5>
+	    		<p>Cargo: Auxiliar Polivalente</p>
+	    		<p>Funcion: Encargado de atender al cliente y registrar sus productos, Uso de la caja registradora para realizar y resivir diferentes tipos de pagos.</p>
+	    		<p>Fecha de inicio: 10/12/2019</p>
+	    		<p>fecha de fin: 31/12/2019</p>
+	  		</div>
+		</div>
+	</div>
+	<div class="card">
+				<div class="card-header" role="tab" id="headingOne">
+	  				<h5 class="mb-0">
+	    			<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseOne" class="">
+	     		 	Estudios Realiazados
+	    			</a>
+	  				</h5>
+				</div>
+			<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="">
+	  			<div class="card-block">
+	   				<h5>Estudios Primarios</h5>
+	    			<p>I.E.D Francisco de Paula Santander</p><br>
+	    			<h5>Estudios Secundarios</h5>
+	    			<p>I.E.D Francisco de Paula Santander</p><br>
+	    			<h5>Cursos Cortos</h5>
+	    			<ul>
+      					<li>IT Essentials (CISCO Networking Academy)
+						Noviembre 22 de 2015</li>
+      					<li>Producción Editorial (Institución Universitaria
+						Politécnico Grancolombiano) Octubre de 2015</li>
+    				</ul>
+	  			</div>
+			</div>
+			</div>
+</div>
+	
+
+	<script>
+		$(document).ready(function(){
+			$('#collapseOne, #collapseTwo, #collapseThree').collapse();
+		});
+	</script>
+
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
